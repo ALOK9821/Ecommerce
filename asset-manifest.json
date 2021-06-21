@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Ecommerce/static/css/main.3aeb8aaf.chunk.css",
+    "main.js": "/Ecommerce/static/js/main.c095dd3f.chunk.js",
+    "main.js.map": "/Ecommerce/static/js/main.c095dd3f.chunk.js.map",
+    "runtime-main.js": "/Ecommerce/static/js/runtime-main.1c4be682.js",
+    "runtime-main.js.map": "/Ecommerce/static/js/runtime-main.1c4be682.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/Ecommerce/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c6fc3f2b.chunk.js": "/Ecommerce/static/js/2.c6fc3f2b.chunk.js",
+    "static/js/2.c6fc3f2b.chunk.js.map": "/Ecommerce/static/js/2.c6fc3f2b.chunk.js.map",
+    "static/js/3.7a89ee23.chunk.js": "/Ecommerce/static/js/3.7a89ee23.chunk.js",
+    "static/js/3.7a89ee23.chunk.js.map": "/Ecommerce/static/js/3.7a89ee23.chunk.js.map",
+    "index.html": "/Ecommerce/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/Ecommerce/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.3aeb8aaf.chunk.css.map": "/Ecommerce/static/css/main.3aeb8aaf.chunk.css.map",
+    "static/js/2.c6fc3f2b.chunk.js.LICENSE.txt": "/Ecommerce/static/js/2.c6fc3f2b.chunk.js.LICENSE.txt",
+    "static/media/phonenobg.5f5f0128.png": "/Ecommerce/static/media/phonenobg.5f5f0128.png",
+    "static/media/samsung.c3d3f44a.jpg": "/Ecommerce/static/media/samsung.c3d3f44a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c4be682.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.c6fc3f2b.chunk.js",
+    "static/css/main.3aeb8aaf.chunk.css",
+    "static/js/main.c095dd3f.chunk.js"
+  ]
+}
