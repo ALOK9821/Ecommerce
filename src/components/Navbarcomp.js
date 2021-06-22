@@ -1,5 +1,4 @@
 import React from "react";
-import Signin from "./Signin";
 const Navbarcomp = () => {
   return (
     <div>
@@ -27,7 +26,7 @@ const Navbarcomp = () => {
               </a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href={Signin}>
+              <a className="nav-link">
                 SignIn
               </a>
             </li>

@@ -3,6 +3,7 @@ import Navbarcomp from './components/Navbarcomp';
 import Products from './components/Products';
 import Carousel from './components/Carousel';
 import Signin from './components/Signin';
+import Cart from './components/Cart';
 function App() {
   return (
     <div className="app">
@@ -11,8 +12,11 @@ function App() {
       <div className="container h-5">
         <Products/>
       </div>
-        <Signin />
-   
+      <div>
+      <Signin />
+      </div>
+        
+       {/* <Cart /> */}
     </div>
   );
 }
