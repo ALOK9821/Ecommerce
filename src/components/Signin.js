@@ -15,7 +15,7 @@ const Signin = () => {
                     <h2>Admin Portal</h2>
                     <h3>User Id:- </h3>  <input type="text" />
                   <h3>Password: </h3> <input type="text" /> <br />
-                  <button className="btn-success">LogIn</button>
+                <Link to="/Owner"> <button className="btn-success">LogIn</button></Link> 
                 </div>
             </div>
         

@@ -16,7 +16,6 @@ function Home() {
       <div>
       <Signin />
       </div>
-       {/* <Cart /> */}
     </div>
   );
 }

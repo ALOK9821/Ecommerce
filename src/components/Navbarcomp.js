@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 const Navbarcomp = () => {
   return (
-    <div>
+    <div >
       <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
         <a className="navbar-brand" href="#">
           xyz mobiles
@@ -36,6 +36,12 @@ const Navbarcomp = () => {
               CART 
               </a>
             </li></Link> 
+         <Link to="/Owner"><li className="nav-item ms-auto">
+              <a className="nav-link" href="#">
+              Admin Portal 
+              </a>
+            </li>
+            </Link>   
            </ul>
         </div>
       </nav>

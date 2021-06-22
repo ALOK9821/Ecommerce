@@ -1,6 +1,5 @@
 import React from "react";
 import {Card,Button} from 'react-bootstrap'
-import Phone from './phonenobg.png'
 const Itemcard = ({imgg,Name,Price}) => {
   return (
     <div>
@@ -15,7 +14,7 @@ const Itemcard = ({imgg,Name,Price}) => {
           <a href="#" className="btn  btn-danger">
             BUY-NOW
           </a>
-          <a href="#" className="btn mx-2 btn-primary">
+          <a href="#" className="btn  btn-primary">
             ADD TO CART
           </a>
         </div>

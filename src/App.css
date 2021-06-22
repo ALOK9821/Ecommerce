@@ -40,3 +40,21 @@ input{
     border-radius: 20px;
     outline: none;
 }
+.owner{
+    margin-top: 80px;
+}
+.mybar{
+    margin-top: 10px;
+}
+.progress{
+    height: 20px !important;
+}
+hr{
+    color: aliceblue;
+}
+.salescards{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
