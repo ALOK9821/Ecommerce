@@ -1,23 +1,21 @@
-import './App.css';
+import {BrowserRouter as Router,Switch,Route } from 'react-router-dom';
+import Home from './Home';
 import Navbarcomp from './components/Navbarcomp';
-import Products from './components/Products';
-import Carousel from './components/Carousel';
-import Signin from './components/Signin';
 import Cart from './components/Cart';
+import Signin from './components/Signin';
 function App() {
   return (
-    <div className="app">
-      <Navbarcomp/>
-      <Carousel />
-      <div className="container h-5">
-        <Products/>
-      </div>
-      <div>
-      <Signin />
-      </div>
-        
-       {/* <Cart /> */}
-    </div>
+    
+    <>
+    <Navbarcomp/>
+    <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/Home" component={Home} />
+      <Route path="/Cart" component={Cart}/>
+      <Route path="/Signin" component={Signin} />
+    </Switch>
+    </>
+    
   );
 }
 

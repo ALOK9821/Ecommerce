@@ -32,10 +32,7 @@ const ContextCart = () => {
         <>
           <section className="main-cart-section">
             <h1>shopping Cart</h1>
-            <p className="total-items">
-              you have <span className="total-items-count">{totalItems} </span>
-              items in shopping cart
-            </p>
+            
 
             <div className="cart-items">
               <div className="cart-items-container">

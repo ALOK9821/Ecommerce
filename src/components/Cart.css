@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+
 :root {
   --main-color: #333;
   --primary-color: #acacac;
@@ -20,12 +27,19 @@ i {
   cursor: pointer;
 }
 
+body {
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  margin-left: 100px;
+}
+
 header {
   width: 100%;
   line-height: 10rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border-bottom: 0.1rem solid #9a9191;
+  border-bottom: 0.1rem solid #fffdfd;
   transform: rotate(-0.05deg);
   margin-bottom: 7rem;
 }
@@ -44,7 +58,7 @@ header {
 .continue-shopping h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: var(--main-color);
+  color: white;
   margin-left: 1.5rem;
   font-weight: 400;
 }
@@ -246,7 +260,7 @@ header {
   font-size: 2.58rem;
   line-height: 3.2rem;
   text-transform: capitalize;
-  color: #606166;
+  color: #f6f7fc;
 }
 
 .card-total h3 span {
@@ -255,7 +269,7 @@ header {
   font-size: 2.8rem;
   line-height: 3.2rem;
   text-transform: capitalize;
-  color: #000000;
+  color: #fcf8f8;
   margin-left: 1rem;
 }
 

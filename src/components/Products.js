@@ -4,6 +4,7 @@ import Itemcard from './Itemcard'
 import Sam2 from './sam2nobg.png'
 import iphone from './phonenobg.png'
 import oneplus from './oneplusnobg.png'
+import Carousel from './Carousel'
 const Products = () => {
   const objectosend ={
     Name :'Iphone',
@@ -21,6 +22,7 @@ const Products = () => {
     Price : '700',
   }
     return (
+      <>
         <div className="d-flex p-3  flex-wrap justify-content-between align-items-center">
           <Itemcard 
           imgg = {objectosend.Image}
@@ -68,6 +70,7 @@ const Products = () => {
           Price = {objectosend3.Price}
            />
         </div>
+        </>
     )
 }
 
